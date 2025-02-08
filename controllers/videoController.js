@@ -35,7 +35,6 @@ console.log(req.body);
         ...parameters
       },
       logs: true,
-      onWebhook: "/api/webhook", 
       
       onQueueUpdate: (update) => {
         console.log("Queue Update:", update.status);

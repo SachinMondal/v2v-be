@@ -35,7 +35,7 @@ console.log(req.body);
         ...parameters
       },
       logs: true,
-      onWebhook: "http://localhost:5000/api/webhook", 
+      onWebhook: "/api/webhook", 
       
       onQueueUpdate: (update) => {
         console.log("Queue Update:", update.status);
